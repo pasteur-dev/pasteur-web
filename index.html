@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pasteur</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/fa/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fa/css/brands.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="fav/favicon.ico">
+
+    <style>
+        :root {
+            --fa-primary-color: #f0efce;
+            --fa-secondary-color: #a89a05;
+        }
+
+        body,
+        a {
+            font-family: "Raleway", sans-serif;
+            color: #f0efce;
+        }
+
+        header {
+            padding-top: 1em;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        a {
+            font-size: 2em;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        a i {
+            padding-right: .5em;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 5em;
+            font-weight: 1000;
+            margin-bottom: 0.1em;
+            /* color: #a89a05; */
+        }
+
+
+        h2 {
+            font-size: 2.5em;
+            font-weight: 300;
+            color: #a89a05;
+            /* color: #5e5936; */
+        }
+
+        body,
+        html {
+            height: 100%;
+            background-color: #25241b;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #f0efce;
+            width: 100%;
+            opacity: 0.4;
+        }
+
+        .logo {
+            box-sizing: content-box;
+            height: 30vh;
+            align-items: center;
+        }
+
+        .background {
+            min-height: 100%;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+        }
+
+        @media (prefers-color-scheme: light) {
+            hr {
+                background-color: #5e5936;
+            }
+
+            body {
+                color: #f7ed5fff;
+            }
+
+            h2, a {
+                color: #5e5936;
+            }
+
+            body,
+            html {
+                height: 100%;
+                background-color: rgb(255, 255, 251);
+            }
+        }
+    </style>
+    <!-- <meta http-equiv="refresh" content="3"> -->
+</head>
+
+<body>
+    <div class="background">
+        <div class="container">
+            <picture>
+                <source srcset="assets/img/logo_light.svg" media="(prefers-color-scheme: light)">
+                <img class="logo" src="assets/img/logo_dark.svg" />
+            </picture>
+            <hr />
+            <h1>PASTEUR</h1>
+            <h2>Sanitize Your Data</h2>
+            <hr />
+            <header>
+                <a href="https://github.com/pasteur-dev/pasteur"><i class="fa-brands fa-github-square"></i>GitHub</a>
+            </header>
+        </div>
+    </div>
+</body>
+
+</html>
